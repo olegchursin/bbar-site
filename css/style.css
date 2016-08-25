@@ -596,8 +596,11 @@ img {
 .bbar-intro-logo {
   display: block;
   margin: 0 auto;
-  padding: 400px 0 0 0;
+  padding: 200px 0 50px;
   width: 350px;
+}
+.bbar-intro-btn {
+  margin: 60px auto;
 }
 .bbar-page-intro {
   position: relative;
@@ -804,6 +807,29 @@ img {
   color: #1F3238;
   cursor: pointer;
 }
+.btn-light {
+  display: block;
+  margin: 0 auto;
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  width: 200px;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Lato;
+  background: #ffffff;
+  color: #1F3238;
+  font-size: 1em;
+  text-align: center;
+}
+.btn-light:hover {
+  border: solid #D64527 2px;
+  background: #D64527;
+  color: #ffffff;
+  cursor: pointer;
+}
 .btn-dark {
   display: block;
   margin: 40px auto;
@@ -869,9 +895,7 @@ img {
   font-size: .8em;
   text-align: center;
 }
-.bbar-intro-btn {
-  margin: 60px auto;
-}
+
 .card-1 {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);

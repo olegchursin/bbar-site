@@ -54,7 +54,7 @@
 
 	<section class="bbar-intro">
 		<img class="bbar-intro-logo" src="img/bbar-logo.svg" alt="Logo">
-		<div class="btn-transparent bbar-intro-btn">Find out more</div>
+		<div class="btn-light bbar-intro-btn">Find out more</div>
 		<!-- <img class="bbar-intro-down-arrow" src="img/down-arrow.svg" alt="Scroll down"> -->
 	</section>
 
@@ -189,7 +189,7 @@
 	</div>
 
 	<div id="fixed-footer">
-		<h3><a class="white" href="https://goo.gl/maps/nAfL51kVCtB2" target="_blank">40 East 4th St NY, NY 10003</a><span></span><a href="#">  RESERVATIONS</a></h3>
+		<h3><a class="white" href="https://goo.gl/maps/nAfL51kVCtB2" target="_blank">40 East 4th St NY, NY 10003</a><span></span><a href="https://resy.com/cities/ny/bbar-and-grill" id="resyButton-8v0fa153">RESERVATIONS</a></h3>
 	</div>
 
 	<footer>
@@ -198,5 +198,11 @@
 
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
+<!-- Resy (reservation system) script -->
+<script src="https://widgets.resy.com/embed.js"></script>
+<script>
+    resyWidget.addButton(document.getElementById('resyButton-8v0fa153'), {"venueId":654,"apiKey":"VYBapPUSz9oQZdVkSclyvOojvjYrmWBF","replace":true});
+</script>
+<!-- end of Resy script -->
 </body>
 </html>
