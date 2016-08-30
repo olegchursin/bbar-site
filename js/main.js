@@ -50,5 +50,11 @@ jQuery(document).ready(function($){
     $('html,body').animate({
         scrollTop: $(".find-out-more-scroll").offset().top},
         'slow');
-});
+	});
+
+	//Resy trigger
+	$("#resy-trigger").click(function() {
+		resyWidget.openModal({"venueId":654,"apiKey":"VYBapPUSz9oQZdVkSclyvOojvjYrmWBF","replace":true});
+	});
+    
 });

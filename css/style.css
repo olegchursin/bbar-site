@@ -40,7 +40,6 @@ h2 {
   font-style: italic;
   text-transform: uppercase;
 }
-
 h3 {
   font-family: Oswald, sans-serif;
   font-weight: 400;
@@ -48,11 +47,15 @@ h3 {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-
 h4 {
   font-family: Oswald, sans-serif;
   font-weight: 400;
   font-size: 1em;
+}
+h6 {
+  font-size: 1em;
+  font-family: "Quattrocento", serif;
+  color: #1F3238;
 }
 .center {
   text-align: center;
@@ -621,12 +624,7 @@ img {
   z-index: 2;
 }
 .bbar-page-intro .overlay .page-title {
-  display: block;
-  margin: 90px auto;
-  -webkit-border-radius: 2;
-  -moz-border-radius: 2;
-  border-radius: 2px;
-  width: 200px;
+  margin: 70px auto;
   text-decoration: none;
   text-transform: uppercase;
   font-family: Oswald, sans-serif;
@@ -774,11 +772,29 @@ img {
   width: 300px;
   height: 400px;
   background-size: cover;
+  padding: 20px;
   margin: 0 auto;
   z-index: 1;
+  color: #1F3238;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.event-space-intro p {
+  font-size: 0.7em;
+}
+.event-space-intro button {
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+}
+.event-space-intro button:hover {
+  text-decoration: none;
+  background: #1F3238;
+  color: #ffffff;
+  border: solid #1F3238 2px;
+  cursor: pointer;
+}
+
 /*@media only screen and (min-width: 1170px) {
   .bbar-intro {
     height: 700px;
@@ -862,7 +878,7 @@ img {
   -moz-border-radius: 2;
   border: solid #D64527 2px;
   border-radius: 2px;
-  width: 350px;
+  width: 300px;
   height: 50px;
   padding: 17px 20px 30px;
   background: #D64527;
