@@ -700,72 +700,37 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.menu-01-intro {
+.menu-card {
   position: relative;
   width: 200px;
   height: 200px;
-  background: url("../img/index-menu01.jpg") no-repeat center center;
-  background-size: cover;
-  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
   z-index: 1;
+  color: #1F3238;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
-.menu-02-intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  width: 200px;
-  height: 200px;
-  background: url("../img/index-menu02.jpg") no-repeat center center;
-  background-size: cover;
-  margin: 0 auto;
-  z-index: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.menu-card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  cursor: pointer;
 }
-.menu-03-intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.menu-card img {
   position: relative;
-  width: 200px;
-  height: 200px;
-  background: url("../img/index-menu03.jpg") no-repeat center center;
-  background-size: cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
   margin: 0 auto;
-  z-index: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-.menu-04-intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  width: 200px;
-  height: 200px;
-  background: url("../img/index-menu04.jpg") no-repeat center center;
-  background-size: cover;
-  margin: 0 auto;
-  z-index: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
-.menu-05-intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  width: 200px;
-  height: 200px;
-  background: url("../img/index-menu05.jpg") no-repeat center center;
-  background-size: cover;
-  margin: 0 auto;
-  z-index: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  cursor: pointer;
 }
 .event-space-intro {
   position: relative;
@@ -899,9 +864,9 @@ img {
 .btn-dark-menu { /*styles dark name labels on the menu cards*/
   position: absolute;
   display: block;
-  margin: 0 auto;
   top: 70%;
   width: 150px;
+  border-radius: 1px;
   padding: 10px 20px;
   background: #1F3238;
   text-decoration: none;
@@ -910,15 +875,6 @@ img {
   color: #ffffff;
   font-size: .8em;
   text-align: center;
-}
-
-.card-1 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-.card-1:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  cursor: pointer;
 }
 .space-card {
   display: inline-block;
@@ -931,7 +887,6 @@ img {
   width: 30px;
   opacity: .4;
 }
-
 .bbar-main-content {
   position: relative;
   z-index: 1;
@@ -969,6 +924,18 @@ img {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
+/* Style image cards on Taco page*/
+.taco-gallery img {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  margin: 0 3px 3px 0;
+}
+#taco-bar-mask {
+  height: 50px;
+  margin: 0 auto;
+}
+/* Style footer*/
 footer {
   height: 135px;
   background-color: #0f191c;
