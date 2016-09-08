@@ -56,5 +56,14 @@ jQuery(document).ready(function($){
 	$("#resy-trigger").click(function() {
 		resyWidget.openModal({"venueId":654,"apiKey":"VYBapPUSz9oQZdVkSclyvOojvjYrmWBF","replace":true});
 	});
+
+	// Gallery
+  $('#mygallery').justifiedGallery({
+        rowHeight: 150,
+        margins: 5,
+        rel: 'gallery1',
+      }).on('jg.complete', function () {
+    $( '.swipebox' ).swipebox();
+  });
     
 });
