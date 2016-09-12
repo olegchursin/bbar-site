@@ -610,7 +610,7 @@ img {
   display: block;
   margin: 0 auto;
   padding: 200px 0 50px;
-  width: 350px;
+  width: 250px;
 }
 .bbar-intro-btn {
   margin: 60px auto;
@@ -710,12 +710,18 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.menu-container {
+  text-align: center;
+}
 .menu-card {
+  display: inline-block;
   position: relative;
   width: 200px;
   height: 200px;
   background: #ffffff;
   padding: 20px;
+  margin: 5px;
   z-index: 1;
   color: #1F3238;
   -webkit-font-smoothing: antialiased;
@@ -872,12 +878,13 @@ img {
   cursor: pointer;
 }
 .btn-dark-menu { /*styles dark name labels on the menu cards*/
-  position: absolute;
-  display: block;
-  top: 70%;
+
+  display: inline-block;
+  top: 75%;
   width: 150px;
   border-radius: 1px;
   padding: 10px 20px;
+  margin-top: 17px;
   background: #1F3238;
   text-decoration: none;
   text-transform: uppercase;
