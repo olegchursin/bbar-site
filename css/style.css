@@ -927,18 +927,25 @@ img {
 .bbar-map {
   height: 300px
 }
+
+/* Style a map on Contact page*/
 .bbar-street-map {
   width: 90%;
   max-width: 1280px;
   height: auto;
   margin: 0 auto;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+@media screen and (max-width: 550px) {
+  .bbar-street-map {
+    content:url("../img/bbar-street-map-trpt-sq.svg");
+  }
+}
+
+/* Style NYC Subway icons on Contact*/
 .subway-mark {
   width: 18px;
   height: auto;
-}
-.bbar-street-map img {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 /* Style image cards on Taco page*/
