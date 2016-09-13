@@ -541,7 +541,7 @@ img {
   font-weight: 700;
   font-size: 14px;
   font-size: 0.875rem;
-  margin: 2.4em 0 .8em;
+  margin: 20px 0 10px;
 }
 .bbar-primary-nav .cd-social {
   display: inline-block;
@@ -846,10 +846,9 @@ img {
   text-align: center;
 }
 .btn-dark:hover {
-  text-decoration: none;
-  background: #ffffff;
-  color: #1F3238;
-  border: solid #1F3238 2px;
+  background: #263E44;
+  border: solid #263E44 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   cursor: pointer;
 }
 .btn-orange {
@@ -871,14 +870,12 @@ img {
   text-align: center;
 }
 .btn-orange:hover {
-  text-decoration: none;
-  background: #ffffff;
-  color: #D64527;
-  border: solid #D64527 2px;
+  background: #EA482D;
+  border: solid #EA482D 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   cursor: pointer;
 }
 .btn-dark-menu { /*styles dark name labels on the menu cards*/
-
   display: inline-block;
   top: 75%;
   width: 150px;
@@ -897,12 +894,15 @@ img {
   display: inline-block;
   margin: 10px;
 }
-.bbar-intro-down-arrow {
-  display: block;
-  margin: 0 auto;
+
+/* styles each section's layout image on Event spaces individual pages*/
+.section-layout {
   width: 350px;
-  width: 30px;
-  opacity: .4;
+}
+@media only screen and (max-width: 450px) {
+  .section-layout {
+  width: 250px;
+  }
 }
 .bbar-main-content {
   position: relative;
@@ -985,4 +985,29 @@ footer {
 #fixed-footer h3 span {
   border-right: 3px solid #2c3c42;
   padding: 0px 3px;
+}
+
+/*remove address and divider from the static footer*/
+@media screen and (max-width: 550px) {
+  #fixed-footer h3 a[target="_blank"], #fixed-footer h3 span {
+    display: none;
+  }
+  #resy-trigger {
+    margin: 1px auto;
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border: solid #D64527 2px;
+    border-radius: 2px;
+    width: 250px;
+    height: 45px;
+    padding: 2px 20px;
+    background: #D64527;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+  }
 }
