@@ -979,8 +979,8 @@ img {
 /* Style image cards on Taco page*/
 .taco-gallery img {
   display: inline-block;
-  height: 120px;
-  width: 120px;
+  height: auto;
+  width: 200px;
   margin: 0 3px 3px 0;
 }
 #taco-bar-mask {
