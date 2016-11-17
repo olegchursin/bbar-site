@@ -1053,3 +1053,10 @@ footer {
     text-align: center;
   }
 }
+
+.nye-flyer {
+  display: block;
+  margin: 0 auto;
+  padding: 80px 0 50px;
+  width: 300px;
+}
