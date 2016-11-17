@@ -1029,6 +1029,10 @@ footer {
   padding: 0px 3px;
 }
 
+#promo-btn {
+  color: #fff;
+}
+
 /*remove address and divider from the static footer*/
 @media screen and (max-width: 550px) {
   #fixed-footer h3 a[target="_blank"], #fixed-footer h3 span {
@@ -1036,14 +1040,32 @@ footer {
   }
   #resy-trigger {
     margin: 1px auto;
+    border: solid #D64527 2px;
     -webkit-border-radius: 2;
     -moz-border-radius: 2;
-    border: solid #D64527 2px;
     border-radius: 2px;
-    width: 250px;
+    width: 200px;
     height: 45px;
     padding: 2px 20px;
     background: #D64527;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+  }
+  #promo-btn {
+    margin: 1px auto 1px 10px;
+    border: solid #C62828 2px;
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    width: 200px;
+    height: 45px;
+    padding: 2px 20px;
+    background: #C62828;
     text-decoration: none;
     text-transform: uppercase;
     font-family: Oswald;
