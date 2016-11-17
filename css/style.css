@@ -61,6 +61,21 @@ h6 {
   font-family: "Quattrocento", serif;
   color: #1F3238;
 }
+
+table {
+  font-size: 1.2em;
+  font-family: "Quattrocento", serif;
+  color: #1F3238;
+}
+table tr td {
+  padding: 7px 30px 0 0;
+}
+@media only screen and (max-width: 1170px) {
+table {
+    font-size: 1em;
+  }
+}
+
 .center {
   text-align: center;
 }
