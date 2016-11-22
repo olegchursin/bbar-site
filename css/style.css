@@ -1082,3 +1082,14 @@ footer {
   padding: 80px 0 50px;
   width: 300px;
 }
+
+.main-nav-non-clickable-info li{
+  color: #fff;
+  font-size: 1.25em;
+  line-height: 1.2;
+}
+
+.main-nav-non-clickable-info li a{
+  color: #fff;
+  font-size: .8em;
+}
