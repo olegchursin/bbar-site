@@ -746,9 +746,9 @@ img {
 .menu-card {
   display: inline-block;
   position: relative;
-  width: 200px;
-  height: 200px;
-  background: #ffffff;
+  width: 140px;
+  height: 140px;
+  background: #fff;
   padding: 20px;
   margin: 5px;
   z-index: 1;
@@ -763,7 +763,6 @@ img {
   cursor: pointer;
 }
 .menu-card img {
-  position: relative;
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -1030,7 +1029,7 @@ footer {
 }
 
 #promo-btn {
-  color: #fff;
+  color: #c62828; 
 }
 
 /*remove address and divider from the static footer*/
