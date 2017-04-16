@@ -152,6 +152,10 @@ button {
     border: none;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 
 /* -------------------------------- 
 
@@ -1307,7 +1311,7 @@ footer {
 /*remove address and divider from the static footer*/
 
 @media screen and (max-width: 550px) {
-    #fixed-footer h3 a[target="_blank"],
+    #fixed-footer h3 a[class="white"],
     #fixed-footer h3 span {
         display: none;
     }
