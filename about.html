@@ -41,35 +41,37 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
     <!-- Modernizr -->
     <script>
-    (function(i, s, o, g, r, a, m) {
-  i['GoogleAnalyticsObject'] = r;
-  (i[r] =
-    i[r] ||
-    function() {
-      (i[r].q = i[r].q || []).push(arguments);
-    }),
-    (i[r].l = 1 * new Date());
-  (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-  a.async = 1;
-  a.src = g;
-  m.parentNode.insertBefore(a, m);
-})(
-  window,
-  document,
-  'script',
-  'https://www.google-analytics.com/analytics.js',
-  'ga'
-);
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            (i[r] =
+                i[r] ||
+                function () {
+                    (i[r].q = i[r].q || []).push(arguments);
+                }),
+                (i[r].l = 1 * new Date());
+            (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m);
+        })(
+            window,
+            document,
+            'script',
+            'https://www.google-analytics.com/analytics.js',
+            'ga'
+        );
 
-ga('create', 'UA-89531827-1', 'auto');
-ga('send', 'pageview');
-</script>
+        ga('create', 'UA-89531827-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 
 <body>
     <header class="bbar-header">
         <div class="bbar-logo">
-            <a href="index.html"><img src="img/bbar-logo.svg" alt="Logo"></a>
+            <a href="index.html">
+                <img src="img/bbar-logo.svg" alt="Logo">
+            </a>
         </div>
         <!-- Secondary navigation -->
         <!-- <nav>
@@ -78,7 +80,8 @@ ga('send', 'pageview');
       </ul>
     </nav> -->
         <a class="bbar-primary-nav-trigger" href="#0">
-            <!-- <span class="bbar-menu-text">Menu </span> --><span class="bbar-menu-icon"></span>
+            <!-- <span class="bbar-menu-text">Menu </span> -->
+            <span class="bbar-menu-icon"></span>
         </a>
         <!-- bbar-primary-nav-trigger -->
     </header>
@@ -86,11 +89,21 @@ ga('send', 'pageview');
         <!-- Primary navigation -->
         <ul class="bbar-primary-nav">
             <li class="bbar-label">The Venue</li>
-            <li><a href="events.html">Private Events</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="taco-bar.html">Taco Bar</a></li>
-            <li><a href="about.html">About+Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li>
+                <a href="events.html">Private Events</a>
+            </li>
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="taco-bar.html">Taco Bar</a>
+            </li>
+            <li>
+                <a href="about.html">About+Gallery</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
             <div class="main-nav-non-clickable-info">
                 <li class="bbar-label">Hours</li>
                 <li>Mon-Thu: 12PM-12AM</li>
@@ -105,11 +118,11 @@ ga('send', 'pageview');
                     <li>New York, NY 10003</li>
                 </div>
             </a>
-            <li class="bbar-label">Events</li>
-            <li><a href="mailto:reservations@bbarandgrill.com"><span>reservations@bbarandgrill.com</span></a></li>
-            <li class="bbar-label">General Inquiries</li>
-            <li><a href="tel:2124752220"><span>(212) 475-2220</span></a></br>
-                <a href="mailto:hello@bbarandgrill.com"><span>hello@bbarandgrill.com</span></a>
+            <li class="bbar-label">Events & Reservations</li>
+            <li>
+                <a href="mailto:reservations@bbarandgrill.com">
+                    <span>reservations@bbarandgrill.com</span>
+                </a>
             </li>
             <!-- <li class="bbar-label">Follow us</li>
       <li class="cd-social cd-facebook"><a href="#0">Facebook</a></li>
@@ -127,7 +140,10 @@ ga('send', 'pageview');
                 <h1>Bbar and Grill</h1>
                 <h2>est. 1993</h2>
                 <div class="white-space-30"></div>
-                <p>Converted from a Gulf gas station in 1993, The Bowery Bar and Grill pioneered the grit-to-glam Bowery neighborhood revival. Designed and owned by <a href="http://www.turtleconservancy.org/contact/goode/">Eric Goode</a> – restaurant, nightlife and hotel entrepreneur who is behind The Bowery Hotel, Maritime Hotel, The Waverly Inn, The Park Restaurant, and The Jane Hotel.</p>
+                <p>Converted from a Gulf gas station in 1993, The Bowery Bar and Grill pioneered the grit-to-glam Bowery neighborhood
+                    revival. Designed and owned by
+                    <a href="http://www.turtleconservancy.org/contact/goode/">Eric Goode</a> – restaurant, nightlife and hotel entrepreneur who is behind The Bowery Hotel, Maritime
+                    Hotel, The Waverly Inn, The Park Restaurant, and The Jane Hotel.</p>
             </div>
             <div class="white-space-60"></div>
             <!-- Galery -->
@@ -136,18 +152,42 @@ ga('send', 'pageview');
                 <div class="white-space-30"></div>
                 <div class="gallery-container">
                     <div id="mygallery">
-                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-010.jpg"><img class="thumb" src="img/bbar-and-grill-010.jpg" alt="BBar and Grill Gallery"></a>
-                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-024.jpg"><img class="thumb" src="img/bbar-and-grill-024.jpg" alt="BBar and Grill Gallery"></a>
-                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-006.jpg"><img class="thumb" src="img/bbar-and-grill-006.jpg" alt="BBar and Grill Gallery"></a>
-                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-008.jpg"><img class="thumb" src="img/bbar-and-grill-008.jpg" alt="BBar and Grill Gallery"></a>
-                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-019.jpg"><img class="thumb" src="img/bbar-and-grill-019.jpg" alt="BBar and Grill Gallery"></a>
-                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-012.jpg"><img class="thumb" src="img/bbar-and-grill-012.jpg" alt="BBar and Grill Gallery"></a>
-                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-020.jpg"><img class="thumb" src="img/bbar-and-grill-020.jpg" alt="BBar and Grill Gallery"></a>
-                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-017.jpg"><img class="thumb" src="img/bbar-and-grill-017.jpg" alt="BBar and Grill Gallery"></a>
-                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-014.jpg"><img class="thumb" src="img/bbar-and-grill-014.jpg" alt="BBar and Grill Gallery"></a>
-                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-016.jpg"><img class="thumb" src="img/bbar-and-grill-016.jpg" alt="BBar and Grill Gallery"></a>
-                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-002.jpg"><img class="thumb" src="img/bbar-and-grill-002.jpg" alt="BBar and Grill Gallery"></a>
-                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-005.jpg"><img class="thumb" src="img/bbar-and-grill-005.jpg" alt="BBar and Grill Gallery"></a>
+                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-010.jpg">
+                            <img class="thumb" src="img/bbar-and-grill-010.jpg" alt="BBar and Grill Gallery">
+                        </a>
+                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-024.jpg">
+                            <img class="thumb" src="img/bbar-and-grill-024.jpg" alt="BBar and Grill Gallery">
+                        </a>
+                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-006.jpg">
+                            <img class="thumb" src="img/bbar-and-grill-006.jpg" alt="BBar and Grill Gallery">
+                        </a>
+                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-008.jpg">
+                            <img class="thumb" src="img/bbar-and-grill-008.jpg" alt="BBar and Grill Gallery">
+                        </a>
+                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-019.jpg">
+                            <img class="thumb" src="img/bbar-and-grill-019.jpg" alt="BBar and Grill Gallery">
+                        </a>
+                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-012.jpg">
+                            <img class="thumb" src="img/bbar-and-grill-012.jpg" alt="BBar and Grill Gallery">
+                        </a>
+                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-020.jpg">
+                            <img class="thumb" src="img/bbar-and-grill-020.jpg" alt="BBar and Grill Gallery">
+                        </a>
+                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-017.jpg">
+                            <img class="thumb" src="img/bbar-and-grill-017.jpg" alt="BBar and Grill Gallery">
+                        </a>
+                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-014.jpg">
+                            <img class="thumb" src="img/bbar-and-grill-014.jpg" alt="BBar and Grill Gallery">
+                        </a>
+                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-016.jpg">
+                            <img class="thumb" src="img/bbar-and-grill-016.jpg" alt="BBar and Grill Gallery">
+                        </a>
+                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-002.jpg">
+                            <img class="thumb" src="img/bbar-and-grill-002.jpg" alt="BBar and Grill Gallery">
+                        </a>
+                        <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-005.jpg">
+                            <img class="thumb" src="img/bbar-and-grill-005.jpg" alt="BBar and Grill Gallery">
+                        </a>
                     </div>
                     <!-- #mygallery -->
                 </div>
@@ -160,14 +200,14 @@ ga('send', 'pageview');
         <section class="bbar-container group">
             <div class="col span_1_of_3">
                 <h1>Address</h1>
-                <p><a href="https://goo.gl/maps/nAfL51kVCtB2" target="_blank">40 East 4th St. New York, NY 10003</a></p>
+                <p>
+                    <a href="https://goo.gl/maps/nAfL51kVCtB2" target="_blank">40 East 4th St. New York, NY 10003</a>
+                </p>
                 <div class="white-space-30"></div>
-                <h1>Events</h1>
-                <p><a href="mailto:reservations@bbarandgrill.com">reservations@bbarandgrill.com</a></p>
-                <div class="white-space-30"></div>
-                <div class="white-space-30"></div>
-                <h1>General Inquiries</h1>
-                <p><a href="mailto:hello@bbarandgrill.com">hello@bbarandgrill.com</a></p>
+                <h1>Events & Reservations</h1>
+                <p>
+                    <a href="mailto:reservations@bbarandgrill.com">reservations@bbarandgrill.com</a>
+                </p>
             </div>
             <div class="col span_1_of_3 hidden-on-mobile">
                 <img class="bbar-map" src="img/bbar-map.svg" alt="BBar Map">
@@ -178,14 +218,22 @@ ga('send', 'pageview');
     </div>
     <!-- end .footer-info -->
     <div id="fixed-footer">
-      <h3><a class="white" href="https://goo.gl/maps/nAfL51kVCtB2" target="_blank">40 East 4th St NY, NY 10003</a><span></span><a id="resy-trigger" href="#"> Book a Table</a><span></span> <a class='chownow-order-online' id="promo-btn" href='https://ordering.chownow.com/order/7332/locations' target='_blank'> Order tacos</a>  </h3>
-      <!-- When running NYE or Halloween promotions, place the below code instead chownow one above -->
-      <!-- <a id="promo-btn" href='https://goo.gl/FkYZTT'> NYE2018</a> -->
+        <h3>
+            <a class="white" href="https://goo.gl/maps/nAfL51kVCtB2" target="_blank">40 East 4th St NY, NY 10003</a>
+            <span></span>
+            <a id="resy-trigger" href="#"> Book a Table</a>
+            <span></span>
+            <a class='chownow-order-online' id="promo-btn" href='https://ordering.chownow.com/order/7332/locations' target='_blank'>
+                Order tacos</a>
+        </h3>
+        <!-- When running NYE or Halloween promotions, place the below code instead chownow one above -->
+        <!-- <a id="promo-btn" href='https://goo.gl/FkYZTT'> NYE2018</a> -->
     </div>
     <!-- end #fixed-footer -->
     <footer>
         &copy; 2017 BBar and Grill. All rights reserved. </br>Designed with
-        <div id="heart"></div> by <a href="http://hinteraction.com">Human Interaction</a>
+        <div id="heart"></div> by
+        <a href="http://hinteraction.com">Human Interaction</a>
     </footer>
     <!-- Resy (reservation system) script -->
     <script src="https://widgets.resy.com/embed.js"></script>

@@ -41,27 +41,29 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
     <!-- Modernizr -->
     <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-89531827-1', 'auto');
-    ga('send', 'pageview');
+        ga('create', 'UA-89531827-1', 'auto');
+        ga('send', 'pageview');
     </script>
 </head>
 
 <body>
     <header class="bbar-header">
         <div class="bbar-logo">
-            <a href="index.html"><img src="img/bbar-logo.svg" alt="Logo"></a>
+            <a href="index.html">
+                <img src="img/bbar-logo.svg" alt="Logo">
+            </a>
         </div>
         <!-- Secondary navigation -->
         <!-- <nav>
@@ -70,7 +72,8 @@
       </ul>
     </nav> -->
         <a class="bbar-primary-nav-trigger" href="#0">
-            <!-- <span class="bbar-menu-text">Menu </span> --><span class="bbar-menu-icon"></span>
+            <!-- <span class="bbar-menu-text">Menu </span> -->
+            <span class="bbar-menu-icon"></span>
         </a>
         <!-- bbar-primary-nav-trigger -->
     </header>
@@ -78,11 +81,21 @@
         <!-- Primary navigation -->
         <ul class="bbar-primary-nav">
             <li class="bbar-label">The Venue</li>
-            <li><a href="events.html">Private Events</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="taco-bar.html">Taco Bar</a></li>
-            <li><a href="about.html">About+Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li>
+                <a href="events.html">Private Events</a>
+            </li>
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="taco-bar.html">Taco Bar</a>
+            </li>
+            <li>
+                <a href="about.html">About+Gallery</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
             <div class="main-nav-non-clickable-info">
                 <li class="bbar-label">Hours</li>
                 <li>Mon-Thu: 12PM-12AM</li>
@@ -97,12 +110,13 @@
                     <li>New York, NY 10003</li>
                 </div>
             </a>
-            <li class="bbar-label">Events</li>
-            <li><a href="mailto:reservations@bbarandgrill.com"><span>reservations@bbarandgrill.com</span></a></li>
-            <li class="bbar-label">General Inquiries</li>
-            <li><a href="tel:2124752220"><span>(212) 475-2220</span></a></br>
-                <a href="mailto:hello@bbarandgrill.com"><span>hello@bbarandgrill.com</span></a>
+            <li class="bbar-label">Events & Reservations</li>
+            <li>
+                <a href="mailto:reservations@bbarandgrill.com">
+                    <span>reservations@bbarandgrill.com</span>
+                </a>
             </li>
+
             <!-- <li class="bbar-label">Follow us</li>
       <li class="cd-social cd-facebook"><a href="#0">Facebook</a></li>
       <li class="cd-social cd-instagram"><a href="#0">Instagram</a></li>
@@ -121,7 +135,10 @@
                 <div class="white-space-30"></div>
                 <img class="section-layout" src="img/layouts/bbar-events-club-room.svg" alt="Club Room Layout">
                 <div class="white-space-30"></div>
-                <p>The Club Room’s welcoming setting is ideal for anything from an engagement celebration, to a corporate event. With plenty of room for seated guests as well as standing, or as the night progresses dancing, the Club Room has something for everyone. Dark crimson banquettes line the walls of the intimate room with vintage photography from the owner’s legendary club Area scattered throughout.
+                <p>The Club Room’s welcoming setting is ideal for anything from an engagement celebration, to a corporate event.
+                    With plenty of room for seated guests as well as standing, or as the night progresses dancing, the Club
+                    Room has something for everyone. Dark crimson banquettes line the walls of the intimate room with vintage
+                    photography from the owner’s legendary club Area scattered throughout.
                     <!-- The Club Room is both young and old, your dearest friend and newest aquaintance, it is the perfect summation of everything BBar can be. -->
                 </p>
                 <!-- Gallery -->
@@ -131,9 +148,15 @@
                     <div class="white-space-30"></div>
                     <div class="gallery-container center">
                         <div id="mygallery">
-                            <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-014.jpg"><img class="thumb" src="img/bbar-and-grill-014.jpg" alt="BBar and Grill Club Room"></a>
-                            <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-016.jpg"><img class="thumb" src="img/bbar-and-grill-016.jpg" alt="BBar and Grill Club Room"></a>
-                            <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-015.jpg"><img class="thumb" src="img/bbar-and-grill-015.jpg" alt="BBar and Grill Club Room"></a>
+                            <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-014.jpg">
+                                <img class="thumb" src="img/bbar-and-grill-014.jpg" alt="BBar and Grill Club Room">
+                            </a>
+                            <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-016.jpg">
+                                <img class="thumb" src="img/bbar-and-grill-016.jpg" alt="BBar and Grill Club Room">
+                            </a>
+                            <a class="swipebox" rel="gallery1" href="img/bbar-and-grill-015.jpg">
+                                <img class="thumb" src="img/bbar-and-grill-015.jpg" alt="BBar and Grill Club Room">
+                            </a>
                         </div>
                         <!-- #mygallery -->
                     </div>
@@ -153,7 +176,12 @@
                 <div class="white-space-30"></div>
                 <h1>Private Events</h1>
                 <h2>CASUAL, FORMAL, AND EVERYTHING IN BETWEEN</h2>
-                <p>BBar and Grill boasts multiple bars for events both private and semi-private. The <a href="club-room.html">Club Room</a> and <a href="garden-bar.html">Garden Bar</a> are perfect to host anything from weddings to corporate gatherings and everything in between. BBar and Grill’s event spaces are not limited to these bars, there are many more options for all types of events. Please email <a href="mailto:reservations@bbarandgrill.com">reservations@bbarandgrill.com</a> if there is any other information we could provide you with.</p>
+                <p>BBar and Grill boasts multiple bars for events both private and semi-private. The
+                    <a href="club-room.html">Club Room</a> and
+                    <a href="garden-bar.html">Garden Bar</a> are perfect to host anything from weddings to corporate gatherings and everything in between.
+                    BBar and Grill’s event spaces are not limited to these bars, there are many more options for all types
+                    of events. Please email
+                    <a href="mailto:events@bbarandgrill.com">events@bbarandgrill.com</a> if there is any other information we could provide you with.</p>
                 <div class="width-90 group">
                     <div class="col span_1_of_4">
                         <div class="event-space-01-intro">
@@ -191,14 +219,15 @@
         <section class="bbar-container group">
             <div class="col span_1_of_3">
                 <h1>Address</h1>
-                <p><a href="https://goo.gl/maps/nAfL51kVCtB2" target="_blank">40 East 4th St. New York, NY 10003</a></p>
+                <p>
+                    <a href="https://goo.gl/maps/nAfL51kVCtB2" target="_blank">40 East 4th St. New York, NY 10003</a>
+                </p>
                 <div class="white-space-30"></div>
-                <h1>Events</h1>
-                <p><a href="mailto:reservations@bbarandgrill.com">reservations@bbarandgrill.com</a></p>
-                <div class="white-space-30"></div>
-                <div class="white-space-30"></div>
-                <h1>General Inquiries</h1>
-                <p><a href="mailto:hello@bbarandgrill.com">hello@bbarandgrill.com</a></p>
+                <h1>Events & Reservations</h1>
+
+                <p>
+                    <a href="mailto:reservations@bbarandgrill.com">reservations@bbarandgrill.com</a>
+                </p>
             </div>
             <div class="col span_1_of_3 hidden-on-mobile">
                 <img class="bbar-map" src="img/bbar-map.svg" alt="BBar Map">
@@ -209,14 +238,22 @@
     </div>
     <!-- end .footer-info -->
     <div id="fixed-footer">
-      <h3><a class="white" href="https://goo.gl/maps/nAfL51kVCtB2" target="_blank">40 East 4th St NY, NY 10003</a><span></span><a id="resy-trigger" href="#"> Book a Table</a><span></span> <a class='chownow-order-online' id="promo-btn" href='https://ordering.chownow.com/order/7332/locations' target='_blank'> Order tacos</a>  </h3>
-      <!-- When running NYE or Halloween promotions, place the below code instead chownow one above -->
-      <!-- <a id="promo-btn" href='https://goo.gl/FkYZTT'> NYE2018</a> -->
+        <h3>
+            <a class="white" href="https://goo.gl/maps/nAfL51kVCtB2" target="_blank">40 East 4th St NY, NY 10003</a>
+            <span></span>
+            <a id="resy-trigger" href="#"> Book a Table</a>
+            <span></span>
+            <a class='chownow-order-online' id="promo-btn" href='https://ordering.chownow.com/order/7332/locations' target='_blank'>
+                Order tacos</a>
+        </h3>
+        <!-- When running NYE or Halloween promotions, place the below code instead chownow one above -->
+        <!-- <a id="promo-btn" href='https://goo.gl/FkYZTT'> NYE2018</a> -->
     </div>
     <!-- end #fixed-footer -->
     <footer>
         &copy; 2017 BBar and Grill. All rights reserved. </br>Designed with
-        <div id="heart"></div> by <a href="http://hinteraction.com">Human Interaction</a>
+        <div id="heart"></div> by
+        <a href="http://hinteraction.com">Human Interaction</a>
     </footer>
     <!-- Resy (reservation system) script -->
     <script src="https://widgets.resy.com/embed.js"></script>
