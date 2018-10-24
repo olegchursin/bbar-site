@@ -1228,6 +1228,10 @@ img {
     padding: 0 0 0 40px;
 }
 
+.bbar-footer-separator {
+    margin-right: 8px;
+}
+
 .bbar-map {
     height: 300px
 }
