@@ -845,7 +845,7 @@ img {
   width: 250px;
 }
 
-.bbar-intro-banner {
+#bbar-intro-banner {
   position: absolute;
   margin: 0 auto;
   top: 80px;
