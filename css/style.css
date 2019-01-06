@@ -824,6 +824,7 @@ img {
 .bbar-intro {
   display: flex;
   justify-content: center;
+  align-items: center;
   position: relative;
   top: 0;
   right: 0;
@@ -859,6 +860,7 @@ img {
 
 .bbar-intro-btn {
   margin: 60px auto;
+  height: 40px;
 }
 
 .bbar-page-intro {
