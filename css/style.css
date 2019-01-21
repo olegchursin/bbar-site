@@ -1121,6 +1121,7 @@ img {
 }
 
 .btn-dark-taco {
+  display: none;
   width: 300px;
 }
 
@@ -1225,6 +1226,10 @@ img {
 
 .bbar-footer-separator {
   margin-right: 8px;
+}
+
+.chownow-order-online {
+  display: none;
 }
 
 .bbar-map {
